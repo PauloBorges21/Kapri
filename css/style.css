@@ -1057,6 +1057,16 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* Testimonials Section
 --------------------------------*/
+
+.fb-post {
+     font-style: italic;
+  margin: 0 auto 15px auto;
+    display: block !important;
+  width: 1110px;
+    text-align: center;
+}
+
+
 #testimonials {
   padding: 60px 0;
 }
@@ -1315,6 +1325,31 @@ body.mobile-nav-active #mobile-nav-toggle {
 #contact .form button[type="submit"]:hover {
   background: #c09251;
 }
+
+
+
+/*Formulario*/
+
+.formphp label.nao-aparece, .formphp input.nao-aparece {
+	display: none !important;
+}
+
+#form-erro span, #form-send span  {
+	font-size: 18px;
+	line-height: 25px;
+	margin-bottom: 10px;
+	display: block;
+}
+
+#form-send {
+	color: #31aa39;
+}
+
+#form-erro {
+	color: #f64540;
+}
+
+
 
 /*--------------------------------------------------------------
 # Footer
