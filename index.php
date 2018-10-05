@@ -1,93 +1,7 @@
-<!DOCTYPE html>
-<html lang="pt">
+<?php include('includes/header.php') ?>
+<?php include('includes/menu.php') ?>
 
-<head>
-    <meta charset="utf-8">
-    <title>Espaço KAPRI</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
-    <meta content="" name="description">
 
-    <!-- Favicons -->
-    <link href="img/favicon.png" rel="icon">
-    <!--  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">-->
-
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700|Varela+Round:400" rel="stylesheet">
-
-    <!-- Bootstrap CSS File -->
-    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Libraries CSS Files -->
-    <script type="text/javascript" src="lib/jquery/jquery.mask.min.js"></script>
-    <script
-            src="https://code.jquery.com/jquery-3.3.1.min.js"
-            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-            crossorigin="anonymous"></script>
-
-    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link href="lib/animate/animate.min.css" rel="stylesheet">
-    <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
-
-    <!-- Main Stylesheet File -->
-    <link href="css/style.css" rel="stylesheet">
-
-    <!-- =======================================================
-    Theme Name: BizPage
-    Theme URL: https://bootstrapmade.com/bizpage-bootstrap-business-template/
-    Author: BootstrapMade.com
-    License: https://bootstrapmade.com/license/
-  ======================================================= -->
-</head>
-
-<body>
-
-    <div id="fb-root"></div>
-    <script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = 'https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&autoLogAppEvents=1&version=v3.1&appId=104226196368780';
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-
-    <!--==========================
-    Header
-  ============================-->
-    <header id="header">
-        <div class="container-fluid">
-
-            <div id="logo" class="pull-left">
-                <!--        <h1><a href="#intro" class="scrollto fontlogo">Espaço KAPRI</a></h1>-->
-                <!-- Uncomment below if you prefer to use an image logo -->
-                <a href="#intro" class="scrollto logo1"></a>
-
-            </div>
-
-            <nav id="nav-menu-container">
-                <ul class="nav-menu">
-                    <li class="menu-active"><a href="#intro">Home</a></li>
-                    <li><a href="#about">Quem Somos</a></li>
-                    <li><a href="#services">Serviços</a></li>
-                    <li><a href="#portfolio">Galeria</a></li>
-                    <li><a href="#team">Equipe</a></li>
-                    <!--
-          <li class="menu-has-children"><a href="">Drop Down</a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-              <li><a href="#">Drop Down 5</a></li>
-            </ul>
-          </li>
--->
-                    <li><a href="#contact">Contato</a></li>
-                </ul>
-            </nav><!-- #nav-menu-container -->
-        </div>
-    </header><!-- #header -->
 
     <!--==========================
     Intro Section
@@ -205,7 +119,7 @@
 
                 <header class="section-header">
                     <h3>Quem Somos</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <p>Somos um espaço de micropigmentação, estética facial e corporal, onde temos como principal objetivo proporcionar o que há de melhor e mais eficaz para nossos clientes, de forma que possamos contribuir diretamente na satisfação e bem estar de cada um individualmente.</p>
                 </header>
 
                 <div class="row about-cols">
@@ -255,8 +169,8 @@
         </section><!-- #about -->
 
         <!--==========================
-      Services Section
-    ============================-->
+       Services Section
+     ============================-->
         <section id="services">
             <div class="container">
 
@@ -268,33 +182,33 @@
                 <div class="row">
 
                     <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
-                        <div class="icon"><i class="ion-ios-analytics-outline"></i></div>
-                        <h4 class="title"><a href="">Lorem Ipsum</a></h4>
+                        <div class="icon"><i class="fa fa-chevron-circle-right"></i></div>
+                        <h4 class="title"><a href="">Design</a></h4>
                         <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
                     </div>
                     <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
-                        <div class="icon"><i class="ion-ios-bookmarks-outline"></i></div>
-                        <h4 class="title"><a href="">Dolor Sitema</a></h4>
+                        <div class="icon"><i class="fa fa-chevron-circle-right"></i></div>
+                        <h4 class="title"><a href="">Unhas</a></h4>
                         <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
                     </div>
                     <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
-                        <div class="icon"><i class="ion-ios-paper-outline"></i></div>
-                        <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
+                        <div class="icon"><i class="fa fa-chevron-circle-right"></i></div>
+                        <h4 class="title"><a href="">Estética Facial</a></h4>
                         <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
                     </div>
                     <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
-                        <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
-                        <h4 class="title"><a href="">Magni Dolores</a></h4>
+                        <div class="icon"><i class="fa fa-chevron-circle-right"></i></div>
+                        <h4 class="title"><a href="">Estética Corporal</a></h4>
                         <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
                     </div>
                     <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
-                        <div class="icon"><i class="ion-ios-barcode-outline"></i></div>
-                        <h4 class="title"><a href="">Nemo Enim</a></h4>
+                        <div class="icon"><i class="fa fa-chevron-circle-right"></i></div>
+                        <h4 class="title"><a href="">Micropigmentação</a></h4>
                         <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
                     </div>
                     <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
-                        <div class="icon"><i class="ion-ios-people-outline"></i></div>
-                        <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
+                        <div class="icon"><i class="fa fa-chevron-circle-right"></i></div>
+                        <h4 class="title"><a href="">Homens</a></h4>
                         <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
                     </div>
 
@@ -685,29 +599,30 @@
         </section><!-- #testimonials -->
 
         <!--==========================
-      Team Section
-    ============================-->
+        Team Section
+      ============================-->
         <section id="team">
             <div class="container">
                 <div class="section-header wow fadeInUp">
-                    <h3>Team</h3>
+                    <h3>Time</h3>
                     <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
                 </div>
 
-                <div class="row">
+                <div class="row rowpaul">
 
                     <div class="col-lg-3 col-md-6 wow fadeInUp">
                         <div class="member">
-                            <img src="img/team-1.jpg" class="img-fluid" alt="">
+                            <img src="img/41106087_2747200201972327_5095616935903625216_n.jpg" class="img-fluid" alt="">
                             <div class="member-info">
                                 <div class="member-info-content">
-                                    <h4>Walter White</h4>
-                                    <span>Chief Executive Officer</span>
+                                    <h4>Priscila Marques</h4>
+                                    <span>Sócia Proprietária e Micropigmentadora</span>
                                     <div class="social">
-                                        <a href=""><i class="fa fa-twitter"></i></a>
-                                        <a href=""><i class="fa fa-facebook"></i></a>
-                                        <a href=""><i class="fa fa-google-plus"></i></a>
-                                        <a href=""><i class="fa fa-linkedin"></i></a>
+                                        <!--                    <a href=""><i class="fa fa-twitter"></i></a>-->
+                                        <a href="https://www.facebook.com/priscilla.medeiros.33?tn-str=*F" target="_blank" ><i class="fa fa-facebook"></i></a>
+                                        <a href="https://www.instagram.com/primarquesm/" class="instagram"target="_blank"><i class="fa fa-instagram"></i></a>
+                                        <!--                    <a href=""><i class="fa fa-google-plus"></i></a>-->
+                                        <!--                    <a href=""><i class="fa fa-linkedin"></i></a>-->
                                     </div>
                                 </div>
                             </div>
@@ -716,16 +631,19 @@
 
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="member">
-                            <img src="img/team-2.jpg" class="img-fluid" alt="">
+                            <img src="img/38480214_1814916748589477_7958325768126201856_n.jpg" class="img-fluid" alt="">
                             <div class="member-info">
                                 <div class="member-info-content">
-                                    <h4>Sarah Jhonson</h4>
-                                    <span>Product Manager</span>
+                                    <h4>Karol Camargo</h4>
+                                    <span>Sócia Proprietária e Micropigmentadora</span>
                                     <div class="social">
-                                        <a href=""><i class="fa fa-twitter"></i></a>
-                                        <a href=""><i class="fa fa-facebook"></i></a>
-                                        <a href=""><i class="fa fa-google-plus"></i></a>
-                                        <a href=""><i class="fa fa-linkedin"></i></a>
+                                        <!--                    <a href=""><i class="fa fa-twitter"></i></a>-->
+                                        <a href="https://www.facebook.com/karol.camargo.31" target="_blank"><i class="fa fa-facebook"></i></a>
+                                        <a href="https://www.instagram.com/karolccamargo/" class="instagram"target="_blank"><i class="fa fa-instagram"></i></a>
+                                        <!--
+                                                            <a href=""><i class="fa fa-google-plus"></i></a>
+                                                            <a href=""><i class="fa fa-linkedin"></i></a>
+                                        -->
                                     </div>
                                 </div>
                             </div>
@@ -734,44 +652,52 @@
 
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
                         <div class="member">
-                            <img src="img/team-3.jpg" class="img-fluid" alt="">
+                            <img src="img/passos.jpg" class="img-fluid" alt="">
                             <div class="member-info">
                                 <div class="member-info-content">
-                                    <h4>William Anderson</h4>
-                                    <span>CTO</span>
+                                    <h4>Jéssica Passos</h4>
+                                    <span>Fisioterapeuta Dermato-funcional- Crefito: 149269-F</span>
                                     <div class="social">
-                                        <a href=""><i class="fa fa-twitter"></i></a>
-                                        <a href=""><i class="fa fa-facebook"></i></a>
-                                        <a href=""><i class="fa fa-google-plus"></i></a>
-                                        <a href=""><i class="fa fa-linkedin"></i></a>
+                                        <!--                    <a href=""><i class="fa fa-twitter"></i></a>-->
+                                        <a href="https://www.facebook.com/JessicaCarolinePassos"target="_blank"><i class="fa fa-facebook"></i></a>
+                                        <a href="https://www.instagram.com/je_spassos/" class="instagram"target="_blank"><i class="fa fa-instagram"></i></a>
+                                        <!--
+                                                            <a href=""><i class="fa fa-google-plus"></i></a>
+                                                            <a href=""><i class="fa fa-linkedin"></i></a>
+                                        -->
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="member">
-                            <img src="img/team-4.jpg" class="img-fluid" alt="">
-                            <div class="member-info">
-                                <div class="member-info-content">
-                                    <h4>Amanda Jepson</h4>
-                                    <span>Accountant</span>
-                                    <div class="social">
+
+                    <!--
+                              <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                                <div class="member">
+                                  <img src="img/team-4.jpg" class="img-fluid" alt="">
+                                  <div class="member-info">
+                                    <div class="member-info-content">
+                                      <h4>Amanda Jepson</h4>
+                                      <span>Accountant</span>
+                                      <div class="social">
                                         <a href=""><i class="fa fa-twitter"></i></a>
                                         <a href=""><i class="fa fa-facebook"></i></a>
                                         <a href=""><i class="fa fa-google-plus"></i></a>
                                         <a href=""><i class="fa fa-linkedin"></i></a>
+                                      </div>
                                     </div>
+                                  </div>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
+
+                              </div>
+                    -->
 
                 </div>
 
             </div>
         </section><!-- #team -->
+
 
         <!--==========================
       Contact Section
@@ -790,7 +716,7 @@
                         <div class="contact-address">
                             <i class="ion-ios-location-outline"></i>
                             <h3>Endereço</h3>
-                            <address>A108 Adam Street, NY 535022, USA</address>
+                            <address>Rua: Carlos Chagas, 99 Aclimação SP</address>
                         </div>
                     </div>
 
@@ -798,7 +724,7 @@
                         <div class="contact-phone">
                             <i class="ion-ios-telephone-outline"></i>
                             <h3>Telefone</h3>
-                            <p><a href="tel:+155895548855">(11)9 1234-8900</a></p>
+                            <p><a href="tel:(11)99580-6647">(11)2501-2348 / (11)99580-6647 <br/>(11)97185-8794</a></p>
                         </div>
                     </div>
 
@@ -806,7 +732,7 @@
                         <div class="contact-email">
                             <i class="ion-ios-email-outline"></i>
                             <h3>Email</h3>
-                            <p><a href="mailto:info@example.com">espacokapri@uol.com.br</a></p>
+                            <p><a href="mailto:contato@espacokapri.com.br">contato@espacokapri.com.br</a></p>
                         </div>
                     </div>
 
@@ -818,10 +744,10 @@
                         <div id="errormessage"></div>
 -->
                     <!--                        <form action="" method="post" role="form" class="contactForm">-->
-                    <form method="post" name="form" class="formphp" id="formlimpa">
+                    <form action="enviar.php" method="post" enctype="multipart/form-data" name="form" class="formphp" id="formlimpa">
                         <div class="form-row">
                             <label class="col-md-6">
-                                <input type="text" name="nome" class="form-control" id="nome" placeholder="Seu Nome"  />
+                                <input type="text" name="nome" class="form-control" id="nome" placeholder="Seu Nome"/>
                                 <!--                                    <div class="validation"></div>-->
                             </label>
                             <div class="form-group col-md-6">
@@ -851,16 +777,17 @@
               <input type="text" class="form-control" name="telefone" id="telefone" placeholder="(11 99999-9999)" data-rule="minlen:4" data-msg="Digite seu telefone" />
               <div class="validation"></div>
             </div>
--->
+
                         <label class="nao-aparece">Se você não é um robô, deixe em branco.</label>
                         <input type="text" class="nao-aparece" name="leaveblank">
                         <label class="nao-aparece">Se você não é um robô, não mude este campo.</label>
-                        <input type="text" class="nao-aparece" name="dontchange" value="http://">
+                        <input type="text" class="nao-aparece" name="dontchange" value="http://">-->
 
                         <div class="form-group">
                             <textarea class="form-control" id="mensagem" name="mensagem" rows="5" data-rule="required"  placeholder="Mensagem"></textarea>
-                            <!--                                <div class="validation"></div>-->
+                                                            <div class="validation"></div>
                         </div>
+
                         <div class="text-center">
                             <button id="enviar" name="enviar" type="submit">Enviar</button></div>
                     </form>
@@ -909,103 +836,4 @@
 
     </main>
 
-    <!--==========================
-    Footer
-  ============================-->
-    <footer id="footer">
-        <div class="footer-top">
-            <div class="container">
-                <div class="row">
-
-                    <div class="col-lg-3 col-md-6 footer-info">
-                        <h3>Espaço KaPri</h3>
-                        <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus. Scelerisque felis imperdiet proin fermentum leo. Amet volutpat consequat mauris nunc congue.</p>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 footer-links">
-                        <h4>Useful Links</h4>
-                        <ul>
-                            <li><i class="ion-ios-arrow-right"></i> <a href="#intro">Home</a></li>
-                            <li><i class="ion-ios-arrow-right"></i> <a href="#about">Quem Somos</a></li>
-                            <li><i class="ion-ios-arrow-right"></i> <a href="#services">Services</a></li>
-                            <li><i class="ion-ios-arrow-right"></i> <a href="#">Terms of service</a></li>
-                            <li><i class="ion-ios-arrow-right"></i> <a href="#">Privacy policy</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 footer-contact">
-                        <h4>Contact Us</h4>
-                        <p>
-                            A108 Adam Street <br>
-                            New York, NY 535022<br>
-                            United States <br>
-                            <strong>Phone:</strong> +1 5589 55488 55<br>
-                            <strong>Email:</strong> info@example.com<br>
-                        </p>
-
-                        <div class="social-links">
-                            <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-                            <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-                            <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
-                            <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
-                            <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
-                        </div>
-
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 footer-newsletter">
-                        <h4>Our Newsletter</h4>
-                        <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna veniam enim veniam illum dolore legam minim quorum culpa amet magna export quem marada parida nodela caramase seza.</p>
-                        <form action="" method="post">
-                            <input type="email" name="email"><input type="submit" value="Subscribe">
-                        </form>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-
-        <div class="container">
-            <div class="copyright">
-                &copy; Copyright <strong>Espaço KaPri</strong>. All Rights Reserved
-            </div>
-            <div class="credits">
-                <!--
-          All the links in the footer should remain intact.
-          You can delete the links only if you purchased the pro version.
-          Licensing information: https://bootstrapmade.com/license/
-          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=BizPage
-        -->
-                Best <a href="https://bootstrapmade.com/">Bootstrap Templates</a> by BootstrapMade
-            </div>
-        </div>
-    </footer><!-- #footer -->
-
-    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
-
-    <!-- JavaScript Libraries -->
-
-    <script src="js/carregamask.js" type="text/javascript"></script>
-    <script src="js/carregaajax.js" type="text/javascript"></script>
-    <script src="lib/jquery/jquery.min.js"></script>
-    <script src="lib/jquery/jquery-migrate.min.js"></script>
-    <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/superfish/hoverIntent.js"></script>
-    <script src="lib/superfish/superfish.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/counterup/counterup.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="lib/isotope/isotope.pkgd.min.js"></script>
-    <script src="lib/lightbox/js/lightbox.min.js"></script>
-    <script src="lib/touchSwipe/jquery.touchSwipe.min.js"></script>
-    <!-- Contact Form JavaScript File -->
-    <!--    <script src="contactform/contactform.js"></script>-->
-
-    <!-- Template Main Javascript File -->
-    <script src="js/main.js"></script>
-
-</body>
-
-</html>
+<?php include('includes/footer.php') ?>

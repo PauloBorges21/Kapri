@@ -1,76 +1,70 @@
-<?php
-//ini_set('display_errors',1);
-//ini_set('display_startup_erros',1);
-//error_reporting(E_ALL);
+ <?php
 
-// Inclui o arquivo class.phpmailer.php localizado na pasta phpmailer
-require_once("phpmailer/class.phpmailer.php");
+/* apenas dispara o envio do formulário caso exista $_POST['enviarFormulario']*/
 
-$nome		= $_POST['nome'];
-$email		= $_POST['email'];
-$assunto	= $_POST['assunto'];
-$telefone 	= $_POST['telefone'];
-$mensagem	= $_POST['mensagem'];
-
-$email_envio  = 'contato@kapri.com.br'; // URL do Site
-
-if(!empty($nome)){
-    // Inicia a classe PHPMailer
-    $mail = new PHPMailer();
-
-    // Define os dados do servidor e tipo de conexão
-    // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-    $mail->IsSMTP(); // Define que a mensagem será SMTP
-    $mail->SMTPSecure = 'ssl';
-    $mail->Host = "smtp.espacokapri.com.br"; // Endereço do servidor SMTP
-    $mail->SMTPAuth = true; // Usa autenticação SMTP? (opcional) - bom ter pra não ir pra spam
-    $mail->Port = 465;
-    $mail->Username = 'contato@espacokapri.com.br'; // Usuário do servidor SMTP
-    $mail->Password = '200814Laura'; // Senha do servidor SMTP
+if (isset($_POST['nome'])){
 
 
-    // Define o remetente
-    // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-    $mail->From = $email; // Seu e-mail
-    //$mail->From = 'thiagonegro@hotmail.com'; // Seu e-mail
-    $mail->FromName = 'Kapri'; // Seu nome
+/*** INÍCIO - DADOS A SEREM ALTERADOS DE ACORDO COM SUAS CONFIGURAÇÕES DE E-MAIL ***/
 
-    // Define os destinatário(s)
-    // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-    $mail->AddAddress('contato@espacokapri.com.br', 'Contato Espaço Kapri');
-    //$mail->AddAddress($email);
-    //$mail->AddCC('ciclano@site.net', 'Ciclano'); // Copia
-    //$mail->AddBCC('fulano@dominio.com.br', 'Fulano da Silva'); // Cópia Oculta
+$enviaFormularioParaNome = 'Kapri';
+$enviaFormularioParaEmail = 'contato@espacokapri.com.br';
 
-    // Define os dados técnicos da Mensagem
-    // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-    $mail->IsHTML(true); // Define que o e-mail será enviado como HTML
-    $mail->CharSet = 'utf-8'; // Charset da mensagem (opcional)
-    $mail->Subject = $assunto; // Assunto da mensagem
-    $mail->Body = 'Nome: ' . $nome;
-    $mail->Body .= '<br>Email: ' . $email;
-    $mail->Body .= '<br>Assunto: ' . $assunto;
-    $mail->Body .= '<br>Telefone: ' . $telefone;
-    $mail->Body .= '<br> Mensagem: ' . $mensagem;
+$caixaPostalServidorNome = 'WebSite | Formulário';
+$caixaPostalServidorEmail = 'espacokapri@bol.com.br';
+$caixaPostalServidorSenha = '200814Laura';
 
-    // Envia o e-mail
-    $enviado = $mail->Send();
+/*** FIM - DADOS A SEREM ALTERADOS DE ACORDO COM SUAS CONFIGURAÇÕES DE E-MAIL ***/
 
-    if($enviado){
-        //echo '<script>alert("Enviado");</script>';
-        echo '<span>Mensagem enviada!</span><p>Em breve eu entro em contato com você. Abraços.</p>';
-    }else{
-        //echo '<script>alert("Erro");</script>';
-        echo '<span>Falha no envio!</span><p>Você pode tentar novamente, ou enviar direto para o e-mail' . $site_url . '</p>';
-    }
 
-    // Limpa os destinatários e os anexos
-    //$mail->ClearAllRecipients();
-    //$mail->ClearAttachments();
+/* abaixo as veriaveis principais, que devem conter em seu formulario*/
 
+$remetenteNome  = $_POST['nome'];
+$remetenteEmail = $_POST['email'];
+$assunto  = $_POST['assunto'];
+$mensagem = $_POST['mensagem'];
+$telefone = $_POST['telefone'];
+
+$mensagemConcatenada = 'Formulário gerado via website'.'<br/>';
+$mensagemConcatenada .= '-------------------------------<br/><br/>';
+$mensagemConcatenada .= 'Nome: '.$remetenteNome.'<br/>';
+$mensagemConcatenada .= 'E-mail: '.$remetenteEmail.'<br/>';
+$mensagemConcatenada .= 'Assunto: '.$assunto.'<br/>';
+$mensagemConcatenada .= '-------------------------------<br/><br/>';
+$mensagemConcatenada .= 'Mensagem: "'.$mensagem.'"<br/>';
+$mensagemConcatenada .= '-------------------------------<br/><br/>';
+$mensagemConcatenada .= 'Telefone: "'.$telefone.'"<br/>';
+
+
+/*********************************** A PARTIR DAQUI NAO ALTERAR ************************************/
+
+require_once('PHPMailer/PHPMailerAutoload.php');
+
+$mail = new PHPMailer();
+
+$mail->IsSMTP();
+$mail->SMTPAuth  = true;
+$mail->Charset   = 'utf8_decode()';
+$mail->Host  = 'smtp.'.substr(strstr($caixaPostalServidorEmail, '@'), 1);
+$mail->Port  = '587';
+$mail->Username  = $caixaPostalServidorEmail;
+$mail->Password  = $caixaPostalServidorSenha;
+$mail->From  = $caixaPostalServidorEmail;
+$mail->FromName  = utf8_decode($caixaPostalServidorNome);
+$mail->IsHTML(true);
+$mail->Subject  = utf8_decode($assunto);
+$mail->Body  = utf8_decode($mensagemConcatenada);
+
+
+$mail->AddAddress($enviaFormularioParaEmail,utf8_decode($enviaFormularioParaNome));
+
+if(!$mail->Send()){
+$mensagemRetorno = 'Erro ao enviar formulário: '. print($mail->ErrorInfo);
 }else{
-    echo '<p style="background-color:#FA8072; color:#8B0000; padding:10px;">Houve um erro ao fazer o cadastro. Tente novamente.</p>';
+$mensagemRetorno = '<div class="formphp">Formulário enviado com sucesso!</div>';
+echo $mensagemRetorno;
 }
 
 
-//echo '<script>alert("' . $nome . '");</script>';
+}
+?>
