@@ -14,7 +14,7 @@
 
                 <div class="carousel-inner" role="listbox">
 
-                    <div class="carousel-item active" style="background-image: url('img/intro-carousel/japonesa.jpeg');">
+                    <div class="carousel-item active" style="background-image: url('assets/img/intro-carousel/japonesa.jpeg');">
                         <div class="carousel-container">
                             <div class="carousel-content">
                                 <h2>We are professional</h2>
@@ -24,7 +24,7 @@
                         </div>
                     </div>
 
-                    <div class="carousel-item" style="background-image: url('img/intro-carousel/blue-eyes-woman-female-makeup-60894.jpeg');">
+                    <div class="carousel-item" style="background-image: url('assets/img/intro-carousel/blue-eyes-woman-female-makeup-60894.jpeg');">
                         <div class="carousel-container">
                             <div class="carousel-content">
                                 <h2>At vero eos et accusamus</h2>
@@ -34,7 +34,7 @@
                         </div>
                     </div>
 
-                    <div class="carousel-item" style="background-image: url('img/intro-carousel/pexels-photo-906052.jpeg');">
+                    <div class="carousel-item" style="background-image: url('assets/img/intro-carousel/pexels-photo-906052.jpeg');">
                         <div class="carousel-container">
                             <div class="carousel-content">
                                 <h2>Temporibus autem quibusdam</h2>
@@ -44,7 +44,7 @@
                         </div>
                     </div>
 
-                    <div class="carousel-item" style="background-image: url('img/intro-carousel/makeup-retouch-glamour-model-111137.jpeg');">
+                    <div class="carousel-item" style="background-image: url('assets/img/intro-carousel/makeup-retouch-glamour-model-111137.jpeg');">
                         <div class="carousel-container">
                             <div class="carousel-content">
                                 <h2>Nam libero tempore</h2>
@@ -54,7 +54,7 @@
                         </div>
                     </div>
 
-                    <div class="carousel-item" style="background-image: url('img/intro-carousel/pexels-photo-971493.jpeg');">
+                    <div class="carousel-item" style="background-image: url('assets/img/intro-carousel/pexels-photo-971493.jpeg');">
                         <div class="carousel-container">
                             <div class="carousel-content">
                                 <h2>Magnam aliquam quaerat</h2>
@@ -127,7 +127,7 @@
                     <div class="col-md-4 wow fadeInUp">
                         <div class="about-col">
                             <div class="img">
-                                <img src="img/about-mission.jpg" alt="" class="img-fluid">
+                                <img src="assets/img/about-mission.jpg" alt="" class="img-fluid">
                                 <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
                             </div>
                             <h2 class="title"><a href="#">Our Mission</a></h2>
@@ -140,7 +140,7 @@
                     <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="about-col">
                             <div class="img">
-                                <img src="img/about-plan.jpg" alt="" class="img-fluid">
+                                <img src="assets/img/about-plan.jpg" alt="" class="img-fluid">
                                 <div class="icon"><i class="ion-ios-list-outline"></i></div>
                             </div>
                             <h2 class="title"><a href="#">Our Plan</a></h2>
@@ -153,7 +153,7 @@
                     <div class="col-md-4 wow fadeInUp" data-wow-delay="0.2s">
                         <div class="about-col">
                             <div class="img">
-                                <img src="img/about-vision.jpg" alt="" class="img-fluid">
+                                <img src="assets/img/about-vision.jpg" alt="" class="img-fluid">
                                 <div class="icon"><i class="ion-ios-eye-outline"></i></div>
                             </div>
                             <h2 class="title"><a href="#">Our Vision</a></h2>
@@ -308,7 +308,7 @@
                 </div>
 
                 <div class="facts-img">
-                    <img src="img/facts-img.png" alt="" class="img-fluid">
+                    <img src="assets/img/facts-img.png" alt="" class="img-fluid">
                 </div>
 
             </div>
@@ -340,8 +340,8 @@
                     <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp">
                         <div class="portfolio-wrap">
                             <figure>
-                                <img src="img/portfolio/app1.jpg" class="img-fluid" alt="">
-                                <a href="img/portfolio/app1.jpg" data-lightbox="portfolio" data-title="App 1" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
+                                <img src="assets/img/portfolio/app1.jpg" class="img-fluid" alt="">
+                                <a href="assets/img/portfolio/app1.jpg" data-lightbox="portfolio" data-title="App 1" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
                                 <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                             </figure>
 
@@ -355,8 +355,8 @@
                     <div class="col-lg-4 col-md-6 portfolio-item filter-web wow fadeInUp" data-wow-delay="0.1s">
                         <div class="portfolio-wrap">
                             <figure>
-                                <img src="img/portfolio/web3.jpg" class="img-fluid" alt="">
-                                <a href="img/portfolio/web3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 3" title="Preview"><i class="ion ion-eye"></i></a>
+                                <img src="assets/img/portfolio/web3.jpg" class="img-fluid" alt="">
+                                <a href="assets/img/portfolio/web3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 3" title="Preview"><i class="ion ion-eye"></i></a>
                                 <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                             </figure>
 
@@ -370,8 +370,8 @@
                     <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp" data-wow-delay="0.2s">
                         <div class="portfolio-wrap">
                             <figure>
-                                <img src="img/portfolio/app2.jpg" class="img-fluid" alt="">
-                                <a href="img/portfolio/app2.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 2" title="Preview"><i class="ion ion-eye"></i></a>
+                                <img src="assets/img/portfolio/app2.jpg" class="img-fluid" alt="">
+                                <a href="assets/img/portfolio/app2.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 2" title="Preview"><i class="ion ion-eye"></i></a>
                                 <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                             </figure>
 
@@ -385,8 +385,8 @@
                     <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp">
                         <div class="portfolio-wrap">
                             <figure>
-                                <img src="img/portfolio/card2.jpg" class="img-fluid" alt="">
-                                <a href="img/portfolio/card2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 2" title="Preview"><i class="ion ion-eye"></i></a>
+                                <img src="assets/img/portfolio/card2.jpg" class="img-fluid" alt="">
+                                <a href="assets/img/portfolio/card2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 2" title="Preview"><i class="ion ion-eye"></i></a>
                                 <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                             </figure>
 
@@ -400,8 +400,8 @@
                     <div class="col-lg-4 col-md-6 portfolio-item filter-web wow fadeInUp" data-wow-delay="0.1s">
                         <div class="portfolio-wrap">
                             <figure>
-                                <img src="img/portfolio/web2.jpg" class="img-fluid" alt="">
-                                <a href="img/portfolio/web2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 2" title="Preview"><i class="ion ion-eye"></i></a>
+                                <img src="assets/img/portfolio/web2.jpg" class="img-fluid" alt="">
+                                <a href="assets/img/portfolio/web2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 2" title="Preview"><i class="ion ion-eye"></i></a>
                                 <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                             </figure>
 
@@ -415,8 +415,8 @@
                     <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp" data-wow-delay="0.2s">
                         <div class="portfolio-wrap">
                             <figure>
-                                <img src="img/portfolio/app3.jpg" class="img-fluid" alt="">
-                                <a href="img/portfolio/app3.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 3" title="Preview"><i class="ion ion-eye"></i></a>
+                                <img src="assets/img/portfolio/app3.jpg" class="img-fluid" alt="">
+                                <a href="assets/img/portfolio/app3.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 3" title="Preview"><i class="ion ion-eye"></i></a>
                                 <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                             </figure>
 
@@ -430,8 +430,8 @@
                     <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp">
                         <div class="portfolio-wrap">
                             <figure>
-                                <img src="img/portfolio/card1.jpg" class="img-fluid" alt="">
-                                <a href="img/portfolio/card1.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 1" title="Preview"><i class="ion ion-eye"></i></a>
+                                <img src="assets/img/portfolio/card1.jpg" class="img-fluid" alt="">
+                                <a href="assets/img/portfolio/card1.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 1" title="Preview"><i class="ion ion-eye"></i></a>
                                 <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                             </figure>
 
@@ -445,8 +445,8 @@
                     <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp" data-wow-delay="0.1s">
                         <div class="portfolio-wrap">
                             <figure>
-                                <img src="img/portfolio/card3.jpg" class="img-fluid" alt="">
-                                <a href="img/portfolio/card3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 3" title="Preview"><i class="ion ion-eye"></i></a>
+                                <img src="assets/img/portfolio/card3.jpg" class="img-fluid" alt="">
+                                <a href="assets/img/portfolio/card3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 3" title="Preview"><i class="ion ion-eye"></i></a>
                                 <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                             </figure>
 
@@ -460,8 +460,8 @@
                     <div class="col-lg-4 col-md-6 portfolio-item filter-web wow fadeInUp" data-wow-delay="0.2s">
                         <div class="portfolio-wrap">
                             <figure>
-                                <img src="img/portfolio/web1.jpg" class="img-fluid" alt="">
-                                <a href="img/portfolio/web1.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 1" title="Preview"><i class="ion ion-eye"></i></a>
+                                <img src="assets/img/portfolio/web1.jpg" class="img-fluid" alt="">
+                                <a href="assets/img/portfolio/web1.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 1" title="Preview"><i class="ion ion-eye"></i></a>
                                 <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                             </figure>
 
@@ -488,14 +488,14 @@
                 </header>
 
                 <div class="owl-carousel clients-carousel">
-                    <img src="img/clients/client-1.png" alt="">
-                    <img src="img/clients/client-2.png" alt="">
-                    <img src="img/clients/client-3.png" alt="">
-                    <img src="img/clients/client-4.png" alt="">
-                    <img src="img/clients/client-5.png" alt="">
-                    <img src="img/clients/client-6.png" alt="">
-                    <img src="img/clients/client-7.png" alt="">
-                    <img src="img/clients/client-8.png" alt="">
+                    <img src="assets/img/clients/client-1.png" alt="">
+                    <img src="assets/img/clients/client-2.png" alt="">
+                    <img src="assets/img/clients/client-3.png" alt="">
+                    <img src="assets/img/clients/client-4.png" alt="">
+                    <img src="assets/img/clients/client-5.png" alt="">
+                    <img src="assets/img/clients/client-6.png" alt="">
+                    <img src="assets/img/clients/client-7.png" alt="">
+                    <img src="assets/img/clients/client-8.png" alt="">
                 </div>
 
             </div>
@@ -516,7 +516,7 @@
 
 
                     <div class="testimonial-item">
-                        <img src="img/testimonial-1.jpg" class="testimonial-img" alt="">
+                        <img src="assets/img/testimonial-1.jpg" class="testimonial-img" alt="">
                         <div class="fb-post" data-href="https://www.facebook.com/catia.armigliatto/posts/10155425831297407" data-width="500" data-show-text="true">
                             <a href="https://www.facebook.com/catia.armigliatto" target="_blank">
                                 <h3>Catia Armigliatto</h3>
@@ -531,46 +531,46 @@
 
 
                     <div class="testimonial-item">
-                        <img src="img/testimonial-1.jpg" class="testimonial-img" alt="">
+                        <img src="assets/img/testimonial-1.jpg" class="testimonial-img" alt="">
                         <h3>Saul Goodman</h3>
                         <h4>Ceo &amp; Founder</h4>
                         <p>
-                            <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
+                            <img src="assets/img/quote-sign-left.png" class="quote-sign-left" alt="">
                             Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
                             <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
                         </p>
                     </div>
 
                     <div class="testimonial-item">
-                        <img src="img/testimonial-2.jpg" class="testimonial-img" alt="">
+                        <img src="assets/img/testimonial-2.jpg" class="testimonial-img" alt="">
                         <h3>Sara Wilsson</h3>
                         <h4>Designer</h4>
                         <p>
-                            <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
+                            <img src="assets/img/quote-sign-left.png" class="quote-sign-left" alt="">
                             Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
-                            <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
+                            <img src="assets/img/quote-sign-right.png" class="quote-sign-right" alt="">
                         </p>
                     </div>
 
                     <div class="testimonial-item">
-                        <img src="img/testimonial-3.jpg" class="testimonial-img" alt="">
+                        <img src="assets/img/testimonial-3.jpg" class="testimonial-img" alt="">
                         <h3>Jena Karlis</h3>
                         <h4>Store Owner</h4>
                         <p>
-                            <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
+                            <img src="assets/img/quote-sign-left.png" class="quote-sign-left" alt="">
                             Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
-                            <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
+                            <img src="assets/img/quote-sign-right.png" class="quote-sign-right" alt="">
                         </p>
                     </div>
 
                     <div class="testimonial-item">
-                        <img src="img/testimonial-4.jpg" class="testimonial-img" alt="">
+                        <img src="assets/img/testimonial-4.jpg" class="testimonial-img" alt="">
                         <h3>Matt Brandon</h3>
                         <h4>Freelancer</h4>
                         <p>
-                            <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
+                            <img src="assets/img/quote-sign-left.png" class="quote-sign-left" alt="">
                             Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
-                            <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
+                            <img src="assets/img/quote-sign-right.png" class="quote-sign-right" alt="">
                         </p>
                     </div>
 
@@ -583,13 +583,13 @@
 
 
                     <div class="testimonial-item">
-                        <img src="img/testimonial-5.jpg" class="testimonial-img" alt="">
+                        <img src="assets/img/testimonial-5.jpg" class="testimonial-img" alt="">
                         <h3>John Larson</h3>
                         <h4>Entrepreneur</h4>
                         <p>
-                            <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
+                            <img src="assets/img/quote-sign-left.png" class="quote-sign-left" alt="">
                             Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
-                            <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
+                            <img src="assets/img/quote-sign-right.png" class="quote-sign-right" alt="">
                         </p>
                     </div>
 
@@ -612,7 +612,7 @@
 
                     <div class="col-lg-3 col-md-6 wow fadeInUp">
                         <div class="member">
-                            <img src="img/41106087_2747200201972327_5095616935903625216_n.jpg" class="img-fluid" alt="">
+                            <img src="assets/img/41106087_2747200201972327_5095616935903625216_n.jpg" class="img-fluid" alt="">
                             <div class="member-info">
                                 <div class="member-info-content">
                                     <h4>Priscila Marques</h4>
@@ -631,7 +631,7 @@
 
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="member">
-                            <img src="img/38480214_1814916748589477_7958325768126201856_n.jpg" class="img-fluid" alt="">
+                            <img src="assets/img/38480214_1814916748589477_7958325768126201856_n.jpg" class="img-fluid" alt="">
                             <div class="member-info">
                                 <div class="member-info-content">
                                     <h4>Karol Camargo</h4>
@@ -652,7 +652,7 @@
 
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
                         <div class="member">
-                            <img src="img/passos.jpg" class="img-fluid" alt="">
+                            <img src="assets/img/passos.jpg" class="img-fluid" alt="">
                             <div class="member-info">
                                 <div class="member-info-content">
                                     <h4>Jéssica Passos</h4>
@@ -675,7 +675,7 @@
                     <!--
                               <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                                 <div class="member">
-                                  <img src="img/team-4.jpg" class="img-fluid" alt="">
+                                  <img src="assets/img/team-4.jpg" class="img-fluid" alt="">
                                   <div class="member-info">
                                     <div class="member-info-content">
                                       <h4>Amanda Jepson</h4>
