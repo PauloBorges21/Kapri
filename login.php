@@ -49,7 +49,7 @@ if(!empty($_POST['email'])) {
         exit;
 
     } else{
-        echo '<span class="formphp"> Usuário e/ou Senha errados! </span>';
+        echo '<span class="erro"> Usuário e/ou Senha errados! </span>';
     }
 }
 
