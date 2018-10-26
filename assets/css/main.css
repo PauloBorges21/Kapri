@@ -196,7 +196,7 @@ iframe {
 }
 
 .login100-form-avatar {
-  display: block;
+  display: flex;
   width: 120px;
   height: 120px;
   border-radius: 50%;
@@ -460,10 +460,11 @@ iframe {
   justify-content: center;
   align-items: center;
   /*padding: 15px;/*/
-  color: #9f191f;
+    transition: all 6s linear;
+    color: rgba(254,60,0.9,0.6);
 position: relative;
-  top: 420px;
-  left: 677px;
+  top: 425px;
+  left: 670px;
 }
 
 

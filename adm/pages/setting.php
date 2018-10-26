@@ -40,15 +40,23 @@ $id = $_SESSION['kaprilogin'];
     <!-- /.row -->
     <div class="row">
         <div class="col-lg-12">
-                <div class="col-lg-8">
+                <div class="col-lg-12">
                     <div class="panel panel-default">
+
                         <div class="panel-heading">
                             Base de Dados
+
                         </div>
+                        <div class="panel"  style="padding:6px">
+<!--                            <strong>Novo Usuário</strong>-->
+                            <a href="adicionar.php">
+                            <button type="button" class="btn btn-outline btn-warning">Adicionar Novo Usuário</button> </a>
+                        </div>
+
                         <!-- /.panel-heading -->
                         <div class="panel-body">
                             <div class="table-responsive">
-                                <table class="table">
+                                <table class="table table-striped table-bordered table-hover">
                                     <thead>
                                     <tr>
                                         <th>ID</th>
@@ -64,7 +72,7 @@ $id = $_SESSION['kaprilogin'];
                                      $lista = $contato->getAll();
                                      foreach($lista as $item):
                                     ?>
-                                       <tr class="success">
+                                       <tr>
                                         <td><?php echo $item['id']; ?></td>
                                         <td><?php echo $item['nome']; ?></td>
                                         <td><?php echo $item['email']; ?></td>
@@ -108,7 +116,7 @@ $id = $_SESSION['kaprilogin'];
             <!-- /.row -->
         </div>
     </div>
-        <!-- /#page-wrapper -->
+<!--         /#page-wrapper-->
 <!--                <div class="panel-body">-->
 <!--                    <div class="row">-->
 <!--                        <div class="col-lg-6">-->
@@ -118,3 +126,5 @@ $id = $_SESSION['kaprilogin'];
 <!--                                    <input class="form-control">-->
 <!--                                    <p class="help-block">Example block-level help text here.</p>-->
 <!--                                </div>-->
+
+<?php include('../includes/footerdash.php') ?>
